@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.drop-pages-main {
+    padding: 50px 0px;
+}
+
+.drop-page-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.drop-page-heading>h1,
+.drop-page-card>h1 {
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.drop-page-heading>p {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.drop-page-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; 
+    align-items: center;
+    justify-content: center;
+}
+
+.drop-page-card>div {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 calc(25% - 20px); 
+    max-width: calc(25% - 20px);
+    min-width: 200px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#no-shadow{
+    box-shadow:none ;
+
+}
+.drop-page-card>div>h1{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.drop-page-card>div>p{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+.drop-page-card>div>img{
+    width: 130px;
+    height: 130px;
+}

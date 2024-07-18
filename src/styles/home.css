@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home-main {
+    background-image: url('../images/hero-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-color: #E6E5E6;
+    padding: 50px 0px;
+}
+
+.hero-img-div {
+    padding-top: 30px;
+}
+
+.hero-img-div>img {
+    width: 90%;
+    height: 100%;
+}
+
+.hero-data {
+    padding: 160px 0px;
+
+}
+
+.hero-sec-heading {
+    font-size: 50px;
+    line-height: 72px;
+    font-weight: 700;
+    color: #2b2929;
+    font-family: "Open Sans", sans-serif;
+    text-align: start;
+}
+
+.hero-sec-heading-two {
+    color: #2b2929;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: start;
+}
+
+.hero-sec-para {
+    font-size: 14px;
+    color: #2b2929 !important;
+    font-family: "Open Sans", sans-serif;
+    text-align: start;
+}
+
+.hero-data-two {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+.hero-data-two>button {
+    border: none;
+    background: none;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 30px;
+    background: linear-gradient(to right, #0DB8A1, #08D78E);
+}
+
+.hero-data-two>span {
+    background-color: black;
+    height: 45px;
+    width: 2px;
+    margin: 0px 25px;
+}
+
+.hero-data-two>div>h1 {
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+.hero-data-two>div>p {
+    color: #2b2929 !important;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+#card {
+    position: relative;
+    top: -125px;
+}
+
+#youtube-video {
+    background-color: #2b2929;
+    padding: 30px 0px;
+}
+
+.slider-main {
+    background-color: #00BF9A;
+    padding: 50px 0px;
+}
+
+.Partners-main {
+    background-color: #E0E8EB;
+    padding: 50px 0px;
+}
+
+.Strategic-Partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Strategic-Partners>h1 {
+    color: #192a56;
+    font-size: 27px;
+    font-weight: 700;
+    margin: 30px 0px;
+
+}
+
+.Strategic-Partners>div>img:nth-child(1) {
+    width: 120px;
+    margin: 30px 20px 30px 0px;
+}
+
+.Strategic-Partners>div>img:nth-child(2) {
+    width: 200px;
+    margin: 30px 0px 30px 20px;
+
+
+}
+
+@media only screen and (max-width:786px) {
+    #card {
+        top: 0;
+    }
+
+    .hero-data {
+        padding: 0;
+    }
+
+    .hero-data-two {
+        margin-top: 0px;
+    }
+    .Strategic-Partners>div>img{
+        margin: auto !important;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .hero-img-div>img {
+        width: 35%;
+        height: 100%;
+    }
+
+    .hero-sec-heading {
+        font-size: 6vw;
+        word-wrap: break-word;
+    }
+
+    .hero-sec-heading-two {
+        font-size: 20px;
+    }
+
+    .hero-data {
+        padding-top: 0px;
+    }
+
+    .hero-data-two {
+        flex-direction: column;
+        margin-top: 0px;
+        align-items: flex-start;
+    }
+
+    .hero-data-two>span {
+        display: none;
+    }
+
+    .hero-data-two>div>h1 {
+        font-size: 6vw;
+        margin-left: 10px;
+    }
+
+    .hero-data-two>div>p {
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.work-main {
+    background-color: #33322D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.work-main>span {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 58px;
+    color: #fff;
+    text-align: center;
+    border-bottom: 1px solid #00D19c;
+}
+
+.work-sec-map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.work-sec-map>img {
+    width: 250px;
+}
+
+
+.roadmap {
+    padding: 20px;
+    width: 100%;
+}
+
+.roadmap h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    left: -23%;
+}
+
+.city-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.city-number {
+    color: #017969;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-right: 30px;
+}
+
+.city-name {
+    position: relative;
+    background-color: #fff;
+    padding: 5px 10px;
+    color: #017969;
+    margin-left: 25px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    width: 200px;
+
+}
+
+.city-name::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -40px;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    background-color: #00b894;
+    border-radius: 50%;
+}
+
+.city-status {
+    flex: 2;
+    padding: 5px 10px;
+    color: #ffffffbe;
+    font-size: 16px;
+    font-weight:500;
+    line-height: 18px;
+
+}

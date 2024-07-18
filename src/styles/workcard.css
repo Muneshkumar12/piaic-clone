@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card-container>div{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.work-card-data {
+    display: flex;
+    align-items: center;
+}
+
+.work-card-data>h1 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-top: 20px;
+
+}
+
+.work-card-data>p {
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.count-btn {
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #00D19c;
+    height: 70px !important;
+    width: 70px !important;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: auto !important;
+}
+
+
+
+
